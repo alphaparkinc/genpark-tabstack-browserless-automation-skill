@@ -1,0 +1,27 @@
+{
+  "name": "genpark-tabstack-browserless-automation-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Tabstack-like browserless DOM navigator.",
+  "author": "genpark",
+  "category": "operations",
+  "tags": [
+    "automation",
+    "scraper",
+    "tabstack"
+  ],
+  "inputs": {
+    "raw_html_body": {
+      "type": "string"
+    },
+    "query_selector": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "matched_nodes_text": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
